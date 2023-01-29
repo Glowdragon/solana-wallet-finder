@@ -41,7 +41,7 @@ dan
 The private keys of the generated wallets are encrypted with a password of your choice. The encryption algorithm used is AES-256-CBC.
 
 To decrypt a private key with this tool:
-1. Run `yarn decrypt`.
+1. Run `yarn decrypt`
 2. Enter the password you used for encryption
 3. Enter the public key of the wallet from which you want to get the private key
 
