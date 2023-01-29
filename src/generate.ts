@@ -10,7 +10,7 @@ if (!fs.existsSync("wallets")) {
 }
 
 // Load list of prefixes
-let prefixes: string[] = fs.readFileSync("prefixes.txt").toString().split("\n").map(s => s.toLowerCase())
+let prefixes: string[] = fs.readFileSync(".prefixes").toString().split("\n").map(s => s.toLowerCase())
 
 function publicKeyMatching(publicKey: string): boolean {
     const publicKeyLowercase = publicKey.toLowerCase()
